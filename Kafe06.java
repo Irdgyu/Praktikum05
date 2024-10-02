@@ -41,6 +41,8 @@ public class Kafe06 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default:
+                System.out.println("Maaf ukuran cup yang anda pilih tidak tersedia");
         }
 
         double diskon = keanggotaan ? 0.1 : 0;
